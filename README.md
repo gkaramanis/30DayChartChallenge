@@ -1,5 +1,5 @@
 
-# 30daychartchallenge
+# 30DayChartChallenge
 
 <!-- badges: start -->
 <!-- badges: end -->
