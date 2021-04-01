@@ -22,5 +22,5 @@ ggplot(day_1) +
     plot.margin = margin(20, 20, 10, 20),
     plot.background = element_rect(fill = "grey97", color = NA)
   ) +
-  ggsave(here::here("day-1-part-to-whole/day-1-part-to-whole.png"), dpi = 320, width = 5, height = 5)
+  ggsave(here::here("2021/day-1-part-to-whole/day-1-part-to-whole.png"), dpi = 320, width = 5, height = 5)
 
