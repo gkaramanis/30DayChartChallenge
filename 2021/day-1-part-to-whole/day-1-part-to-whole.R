@@ -14,7 +14,7 @@ ggplot(day_1) +
     labels = c(TRUE, FALSE)
   ) +
   scale_color_manual(values = c("#8023EB", "#58C1AA")) +
-  labs(title = "Plots I've Done for #30DayChartChallenge") +
+  labs(title = "Charts I've made for #30DayChartChallenge") +
   theme_void() +
   theme(
     legend.position = "none",
