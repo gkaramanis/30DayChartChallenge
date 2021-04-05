@@ -50,15 +50,15 @@ ggplot(tweets_hashtags, aes(x = day, y = n, group = hashtags)) +
   xlim(-0.5, 5.5) +
   labs(
     title = "Hashtags used on day 1 and day 4\nof the #30DayChartChallenge",
-    # subtitle = "on day 1 and day 4",
+    subtitle = "showing hashtags used 5 or more times",
     caption = "data: Twitter · graphic: Georgios Karamanis"
   ) +
   theme_void() +
   theme(
     plot.margin = margin(15, 20, 10, 20),
     plot.background = element_rect(fill = "grey97", color = NA),
-    plot.title = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed ExtraBold", size = 18, lineheight = 1, margin = margin(0, 0, 5, 0)),
-    # plot.subtitle = element_text(hjust = 0.5),
-    plot.caption = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed ExtraBold", size = 8)
+    plot.title = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed ExtraBold", size = 18, lineheight = 1, margin = margin(0, 0, 3, 0)),
+    plot.subtitle = element_text(hjust = 0.5, margin = margin(0, 0, 5, 0), color = pal[5], family = "Futura Bold", size = 11),
+    plot.caption = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed Medium", size = 8)
   ) +
   ggsave(here::here("2021/day-5-slope/day-5-slope.png"), dpi = 320, height = 7, width = 5)
