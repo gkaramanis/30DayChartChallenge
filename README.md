@@ -19,8 +19,9 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 # Day 4, magical
 ![](2021/day-4-magical/day-4-magical.png)  
 
-
 # Day 5, slope
+![](2021/day-5-slope/day-5-slope.png)  
+
 # Day 6, experimental
 
   
