@@ -5,8 +5,7 @@ library(ggplot2)
 library(ggbump)
 library(ggtext)
 
-tweets_30 <- search_tweets("#30daychartchallenge", n = 10000,
-                           fromDate = "202104010001")
+tweets_30 <- search_tweets("#30daychartchallenge", n = 10000)
 
 tweets_hour <- tweets_30 %>% 
   select(created_at) %>% 

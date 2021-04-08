@@ -5,8 +5,7 @@ library(ggplot2)
 library(waffle)
 library(wesanderson)
 
-tweets_30 <- search_tweets("#30daychartchallenge", n = 10000,
-                                fromDate = "202104010001")
+tweets_30 <- search_tweets("#30daychartchallenge", n = 10000)
 
 tweets_30_source <- tweets_30 %>% 
   distinct(user_id, source) %>% 

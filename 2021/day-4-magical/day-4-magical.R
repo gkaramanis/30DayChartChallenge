@@ -4,8 +4,7 @@ library(cowplot)
 library(rtweet)
 library(ggimage)
 
-tweets_30 <- search_tweets("#30daychartchallenge", n = 10000,
-                           fromDate = "202104010001")
+tweets_30 <- search_tweets("#30daychartchallenge", n = 10000)
 
 retweets <- tweets_30 %>% 
   group_by(is_retweet) %>%

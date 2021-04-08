@@ -5,7 +5,7 @@ library(lubridate)
 library(sonify)
 library(tuneR)
 
-tweets_30 <- search_tweets("#30daychartchallenge", n = 10000, fromDate = "202104010001")
+tweets_30 <- search_tweets("#30daychartchallenge", n = 10000)
 
 tweets_music <- tweets_30 %>% 
   mutate(
