@@ -23,7 +23,7 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 ![](2021/day-5-slope/day-5-slope.png)  
 
 # Day 6, experimental
-[video](2021/day-6-experimental/r.mp4  
+[video](2021/day-6-experimental/r.mp4)  
 
 # Day 7, physical
 ![](2021/day-7-physical/day-7-physical.jpeg)  
