@@ -23,13 +23,13 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 ![](2021/day-5-slope/day-5-slope.png)  
 
 # Day 6, experimental
-![](2021/day-6-experimental.png)  
+![](2021/day-6-experimental/day-6-experimental.png)  
 
 # Day 7, physical
-![](2021/day-5-slope/day-7-physical.png)  
+![](2021/day-7-physical/day-7-physical.png)  
 
 # Day 8, animals
-![](2021/day-5-slope/day-8-animals.png)  
+![](2021/day-8-animals/day-8-animals.png)  
 
 
   
