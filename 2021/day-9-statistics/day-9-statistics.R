@@ -22,7 +22,7 @@ ggplot(tweet_stats, aes(x = hour, y = lang, size = n, label = n)) +
   scale_size_continuous(range = c(1.8, 3.5)) +
   scale_x_continuous(breaks = seq(0, 22, by = 2), limits = c(0, 23), sec.axis = dup_axis()) +
   labs(
-    title = "Distribution of languages in tweets tagged with\n#30DayChartChallenge by hour of day",
+    title = "Distribution of tweets tagged with #30DayChartChallenge\nby languade and hour of day",
     caption = "data: Twitter · graphic: Georgios Karamanis"
        ) +
   theme_minimal(base_family = "Fira Sans Bold") +
