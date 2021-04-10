@@ -8,7 +8,6 @@ tweets <- tweets_w1_raw %>%
   mutate(
     h = hour(created_at),
     m = minute(created_at)
-    # c = if_else(is_retweet, "green", "purple")
     ) %>% 
   count(h, m, source)
 
