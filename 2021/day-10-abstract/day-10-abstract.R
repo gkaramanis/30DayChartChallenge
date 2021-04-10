@@ -22,7 +22,7 @@ ggplot(tweets) +
   scale_fill_manual(values = rev(pal), na.value = "grey50") +
   coord_cartesian(expand = FALSE) +
   labs(
-    title = "Distribution of tweets tagged with #30DayChartChallenge\nby hour of day and minute of hour",
+    title = "Distribution of tweets tagged with #30DayChartChallenge\nby hour of day and minute of hour (days 1 to 7)",
     caption = "data: Twitter · graphic: Georgios Karamanis",
     fill = "Twitter client",
     x = "minute",
