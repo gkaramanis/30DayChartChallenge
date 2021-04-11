@@ -16,7 +16,7 @@ tweet_stats <- tweets_w1 %>%
   count(hour, lang)
 
 ggplot(tweet_stats, aes(x = hour, y = lang, size = n, label = n)) +
-  geom_violin(color = NA, fill = "#CBC3E3") +
+  geom_violin(color = NA, fill = "#CBC3E3", scale = "count") +
   geom_point(shape = 21, fill = "orange") +
   geom_text(nudge_y = -0.125, family = "Fira Sans Bold", color = colorspace::darken("#CBC3E3", 0.7)) +
   scale_size_continuous(range = c(1.8, 3.5)) +
@@ -39,5 +39,5 @@ ggplot(tweet_stats, aes(x = hour, y = lang, size = n, label = n)) +
     plot.title = element_text(hjust = 0.5, margin = margin(0, 0, 10, 0), lineheight = 1, size = 16),
     plot.caption = element_text(hjust = 0.5, margin = margin(20, 0, 0, 0), size = 8, color = "grey70")
   ) +
-  ggsave(here::here("2021/day-9-statistics/day-9-statistics.png"), dpi = 320, width = 7, height = 7)
+  ggsave(here::here("2021/day-9-statistics/day-9-statistics-violinscale.png"), dpi = 320, width = 7, height = 7)
 
