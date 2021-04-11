@@ -34,7 +34,13 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 ![](2021/day-8-animals/day-8-animals.png)  
 
 ## Day 9, statistics
-![](2021/day-9-statistics/day-9-statistics.png)  
+![](2021/day-9-statistics/day-9-statistics-violinscale.png)  
+
+## Day 10, abstract
+![](2021/day-10-abstract/day-10-abstract.png)  
+
+## Day 11, circular
+![](2021/day-11-circular/day-11-circular.png)  
 
 
   
