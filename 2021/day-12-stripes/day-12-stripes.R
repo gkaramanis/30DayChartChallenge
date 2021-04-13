@@ -18,9 +18,12 @@ tweets_media <- tweets_w1_raw %>%
 
 bi_media <- bi_class(tweets_media, x = retweet_t, y = media_t, dim = 2)
 
+pal <- bi_pal_manual(val_1_1 = "#3B4994", val_1_2 = "#BE64AC",
+                     val_2_1 = "#5AC8C8", val_2_2 = "#E8E8E8")
+
 p <- ggplot(bi_media) +
   geom_tile(aes(x = hm, y = 0, width = 0.02, height = 0.7, fill = bi_class), color = NA) +
-  bi_scale_fill(pal = "DkBlue", dim = 2) +
+  bi_scale_fill(pal = pal, dim = 2) +
   scale_y_continuous(limits = c(-0.5, 0.5)) +
   facet_wrap(vars(day), ncol = 1) +
   labs(
@@ -40,9 +43,9 @@ p <- ggplot(bi_media) +
 l <- ggplot(bi_media) +
   geom_tile(
     aes(x = retweet_t, y = media_t, fill = bi_class)) +
-  bi_scale_fill(pal = "DkBlue", dim = 2) +
-  labs(x = "yes     no\nretweet",
-       y = "media\nyes     no") +
+  bi_scale_fill(pal = pal, dim = 2) +
+  labs(x = "no     yes\nretweet",
+       y = "media\nno     yes") +
   coord_fixed() +
   theme_void(base_family = "Fira Sans Medium") +
   theme(
