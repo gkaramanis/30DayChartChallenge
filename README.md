@@ -42,5 +42,31 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 ## Day 11, circular
 ![](2021/day-11-circular/day-11-circular.png)  
 
+## Day 12, strips
+![](2021/day-11-circular/day-12-strips.png)  
+
+# Relationships
+## Day 13, correlation
+![](2021/day-13-correlation/day-13-correlation.png)  
+
+## Day 14, space
+![](2021/day-14-space/day-14-space.png)  
+
+## Day 15, Multivariate
+![](2021/day-15-multivariate/day-15-multivariate.png)  
+
+## Day 16, trees
+![](2021/day-16-trees/day-16-trees.png) 
+
+## Day 17, pop culture
+![](2021/day-17-pop-culture/day-17-pop-culture.png)  
+
+## Day 18, connections
+![](2021/day-18-connections/day-18-connections.png)  
+
+# Timeseries
+## Day 19, global change
+![](2021/day-19-global-change/day-19-global-change.png)  
+
 
   
