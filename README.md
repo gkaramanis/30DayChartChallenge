@@ -43,7 +43,7 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
 ![](2021/day-11-circular/day-11-circular.png)  
 
 ## Day 12, strips
-![](2021/day-11-strips/day-12-strips.png)  
+![](2021/day-12-strips/day-12-strips.png)  
 
 # Relationships
 ## Day 13, correlation
