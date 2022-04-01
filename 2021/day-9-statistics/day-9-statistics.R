@@ -38,6 +38,7 @@ ggplot(tweet_stats, aes(x = hour, y = lang, size = n, label = n)) +
     plot.title.position = "plot",
     plot.title = element_text(hjust = 0.5, margin = margin(0, 0, 10, 0), lineheight = 1, size = 16),
     plot.caption = element_text(hjust = 0.5, margin = margin(20, 0, 0, 0), size = 8, color = "grey70")
-  ) +
-  ggsave(here::here("2021/day-9-statistics/day-9-statistics-violinscale.png"), dpi = 320, width = 7, height = 7)
+  ) 
+
+ggsave(here::here("2021/day-9-statistics/day-9-statistics-violinscale.png"), dpi = 320, width = 7, height = 7)
 

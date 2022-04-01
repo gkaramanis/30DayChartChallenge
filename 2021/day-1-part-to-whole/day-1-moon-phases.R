@@ -22,5 +22,6 @@ ggplot(phases) +
     legend.position = "none",
     plot.background = element_rect(fill = "grey15", color = NA),
     plot.margin = margin(20, 20, 20, 20)
-    ) +
-  ggsave(here::here("2021", "day-1-part-to-whole", "day-1-moon-phases.png"), dpi = 320, height = 7, width = 7)
+    ) 
+
+ggsave(here::here("2021", "day-1-part-to-whole", "day-1-moon-phases.png"), dpi = 320, height = 7, width = 7)

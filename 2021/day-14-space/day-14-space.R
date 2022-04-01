@@ -40,5 +40,6 @@ ggplot(spaces) +
     plot.margin = margin(20, 20, 20, 20),
     plot.title = element_text(hjust = 0.5),
     plot.caption = element_text(color = "grey40", size = 8)
-  ) +
-  ggsave(here::here("2021/day-14-space/day-14-space.png"), dpi = 320, width = 8, height = 6)
+  ) 
+
+ggsave(here::here("2021/day-14-space/day-14-space.png"), dpi = 320, width = 8, height = 6)

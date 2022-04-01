@@ -40,6 +40,6 @@ ggplot(worldwide, aes(x = fav_sum, y = re_sum, label = day)) +
     plot.caption = element_text(hjust = 1, margin = margin(30, 0, 0, 0), size = 8, color = "grey50"),
     plot.margin = margin(20, 20, 20, 20),
     plot.background = element_rect(fill = "grey97", color = NA)
-    ) +
-  ggsave(here::here("2021/day-19-global-change/day-19-global-change.png"), dpi = 320, width = 7, height = 7)
+    ) 
 
+ggsave(here::here("2021/day-19-global-change/day-19-global-change.png"), dpi = 320, width = 7, height = 7)

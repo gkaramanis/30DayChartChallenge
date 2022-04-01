@@ -42,6 +42,7 @@ ggplot(tweets_counts, aes(x = followers_count, y = friends_count, size = n)) +
     plot.title = element_text(margin = margin(0, 0, 20, 0)),
     plot.title.position = "panel",
     plot.caption = element_text(family = "American Typewriter Light", hjust = 0.5, margin = margin(20, 0, 0, 0))
-  ) +
-  ggsave(here::here("2021/day-13-correlation/day-13-correlation.png"), dpi = 320, width = 8, height = 8)
+  ) 
+
+ggsave(here::here("2021/day-13-correlation/day-13-correlation.png"), dpi = 320, width = 8, height = 8)
 

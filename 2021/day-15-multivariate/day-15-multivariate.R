@@ -35,5 +35,6 @@ ggplot(plot_tw, aes(x = hour, y = day, angle = a, radius = 0.4)) +
     plot.margin = margin(20, 20, 20, 20),
     plot.title = element_text(hjust = 0.5, size = 14, margin = margin(0, 0, 20, 0)),
     plot.caption = element_text(hjust = 0.5, family = "Spot Mono", size = 10, margin = margin(20, 0, 0, 0))
-  ) +
-  ggsave(here("2021", "day-15-multivariate", "day-15-multivariate.png"), dpi = 320, width = 10, height = 7)
+  ) 
+
+ggsave(here("2021", "day-15-multivariate", "day-15-multivariate.png"), dpi = 320, width = 10, height = 7)

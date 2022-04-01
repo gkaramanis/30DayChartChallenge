@@ -41,6 +41,7 @@ ggraph(net30, layout = "kk") +
     legend.position = "none",
     plot.background = element_rect(fill = "grey95", color = NA),
     plot.margin = margin(10, 10, 10, 10)
-  ) +
-  ggsave(here::here("2021/day-18-connections/day-18-connections.png"), dpi = 320, width = 8.25, height = 8)
+  ) 
+
+ggsave(here::here("2021/day-18-connections/day-18-connections.png"), dpi = 320, width = 8.25, height = 8)
   # 

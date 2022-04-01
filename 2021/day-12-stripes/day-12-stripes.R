@@ -55,6 +55,7 @@ l <- ggplot(bi_media) +
     )
 
 ggdraw(p) +
-  draw_plot(l, x = -0.35, y = 0.4, scale = 0.15) +
-  ggsave(here::here("2021", "day-12-stripes", "day-12-stripes.png"), dpi = 320, width = 8, height = 8)
+  draw_plot(l, x = -0.35, y = 0.4, scale = 0.15) 
+
+ggsave(here::here("2021", "day-12-stripes", "day-12-stripes.png"), dpi = 320, width = 8, height = 8)
   

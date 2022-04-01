@@ -68,6 +68,7 @@ p1 + p2 +
                     plot.title = element_text(size = 16, hjust = 0.5, family = "Fira Sans Bold"),
                     plot.caption = element_text(size = 11, hjust = 0.5, family = "Fira Sans")
                     )
-  ) +
-  ggsave(here("2021", "day-16-trees", "day-16-trees.png"), dpi = 320)
+  ) 
+
+ggsave(here("2021", "day-16-trees", "day-16-trees.png"), dpi = 320)
 

@@ -38,6 +38,7 @@ ggplot(tweets) +
     plot.title = element_text(hjust = 0.5, size = 16),
     plot.caption = element_text(size = 10, family = "Fira Sans Compressed Light", color = "grey40"),
     plot.margin = margin(10, 10, 10, 10)
-  ) +
-  ggsave(here::here("2021/day-10-abstract/day-10-abstract.png"), dpi = 320, width = 9, height = 6)
+  ) 
+
+ggsave(here::here("2021/day-10-abstract/day-10-abstract.png"), dpi = 320, width = 9, height = 6)
 

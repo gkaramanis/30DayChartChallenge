@@ -54,6 +54,7 @@ p <- ggplot(retweets) +
 
 ggdraw() +
   draw_plot(card) +
-  draw_plot(p, y = 0.16, scale = 1) +
-  ggsave(here::here("2021/day-4-magical/day-4-magical.png"), dpi = 320, width = 4, height = 5.6)
+  draw_plot(p, y = 0.16, scale = 1) 
+
+ggsave(here::here("2021/day-4-magical/day-4-magical.png"), dpi = 320, width = 4, height = 5.6)
 

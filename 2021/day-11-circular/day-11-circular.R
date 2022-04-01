@@ -63,6 +63,7 @@ p1 <- ggplot(tweet_stats, aes(x = hour_dn, y = day, fill = n)) +
 
 ggdraw(p1) +
   draw_image(here::here("2021", "day-11-circular", "icons", "sun.png"), x = -0.243, y = -0.005, scale = 0.055) +
-  draw_image(here::here("2021", "day-11-circular", "icons/moon.png"), x = 0.245, y = -0.005, scale = 0.05) +
-  ggsave(here::here("2021/day-11-circular/day-11-circular.png"), dpi = 320, width = 7, height = 5.5)
+  draw_image(here::here("2021", "day-11-circular", "icons/moon.png"), x = 0.245, y = -0.005, scale = 0.05) 
+
+ggsave(here::here("2021/day-11-circular/day-11-circular.png"), dpi = 320, width = 7, height = 5.5)
 

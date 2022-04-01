@@ -55,6 +55,7 @@ ggplot(tweets_30_source) +
     plot.margin = margin(15, 10, 10, 10),
     plot.title = element_text(hjust = 0.5, size = 12, margin = margin(0, 0, 10, 0), family = "Futura Bold", lineheight = 1, color = "#62AAC5"),
     plot.caption = element_text(hjust = 0.5, size = 7, margin = margin(0, 0, 0, 0), lineheight = 1, color = "#62AAC5")
-  )  +
-  ggsave(here::here("2021/day-2-pictogram/day-2-pictogram.png"), dpi = 320, width = 5, height = 6)
+  )  
+
+ggsave(here::here("2021/day-2-pictogram/day-2-pictogram.png"), dpi = 320, width = 5, height = 6)
 

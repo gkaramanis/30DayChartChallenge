@@ -29,11 +29,13 @@ writeWave(f, here::here("2021", "day-6-experimental", "f.wav"))
 ggplot() +
   geom_text(aes(0, 0, label = "retweets"), color = "grey20", size = 20, family = "Publico Headline Black Italic") +
   theme_void() +
-  theme(plot.background = element_rect(fill = "orange", color = NA)) +
-  ggsave(here::here("2021", "day-6-experimental", "r.png"))
+  theme(plot.background = element_rect(fill = "orange", color = NA)) 
+
+ggsave(here::here("2021", "day-6-experimental", "r.png"))
 
 ggplot() +
   geom_text(aes(0, 0, label = "favorites"), color = "grey97", size = 20, family = "Publico Headline Black Italic") +
   theme_void() +
-  theme(plot.background = element_rect(fill = "purple", color = NA)) +
-  ggsave(here::here("2021", "day-6-experimental", "f.png"))
+  theme(plot.background = element_rect(fill = "purple", color = NA)) 
+
+ggsave(here::here("2021", "day-6-experimental", "f.png"))

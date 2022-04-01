@@ -47,6 +47,7 @@ ggplot(tweets_hour) +
     panel.grid.minor.y = element_blank(),
     axis.text = element_text(color = "grey50"),
     plot.margin = margin(10, 40, 10, 20)
-  ) +
-  ggsave(here::here("2021/day-3-historical/day-3-historical.png"), dpi = 320, width = 6, height = 4)
+  ) 
+
+ggsave(here::here("2021/day-3-historical/day-3-historical.png"), dpi = 320, width = 6, height = 4)
     

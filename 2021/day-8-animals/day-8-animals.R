@@ -47,6 +47,7 @@ ggplot(animals) +
     plot.title = element_text(size = 9, hjust = 0.5, margin = margin(0, 0, 10, 0)),
     plot.caption = element_text(hjust = 0.5),
     plot.margin = margin(15, 20, 20, 20)
-  ) +
-  ggsave(here::here("2021/day-8-animals/day-8-animals.png"), dpi = 320, width = 4, height = 8)
+  ) 
+
+ggsave(here::here("2021/day-8-animals/day-8-animals.png"), dpi = 320, width = 4, height = 8)
 

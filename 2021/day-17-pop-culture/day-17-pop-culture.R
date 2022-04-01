@@ -36,5 +36,6 @@ ggplot(pop, aes(favorite_count, retweet_count, color = name),) +
     axis.text = element_text(color = "grey70", size = 12),
     axis.title = element_text(face = "bold", color = "grey85", size = 12),
     plot.margin = margin(20, 20, 20, 20)
-  ) +
-  ggsave(here::here("2021/day-17-pop-culture/day-17-pop-culture.png"), dpi = 320, width = 8, height = 8)
+  ) 
+
+ggsave(here::here("2021/day-17-pop-culture/day-17-pop-culture.png"), dpi = 320, width = 8, height = 8)

@@ -60,5 +60,6 @@ ggplot(tweets_hashtags, aes(x = day, y = n, group = hashtags)) +
     plot.title = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed ExtraBold", size = 18, lineheight = 1, margin = margin(0, 0, 3, 0)),
     plot.subtitle = element_text(hjust = 0.5, margin = margin(0, 0, 5, 0), color = pal[5], family = "Futura Bold", size = 11),
     plot.caption = element_text(hjust = 0.5, color = pal[3], family = "Futura Condensed Medium", size = 8)
-  ) +
-  ggsave(here::here("2021/day-5-slope/day-5-slope.png"), dpi = 320, height = 7, width = 5)
+  ) 
+
+ggsave(here::here("2021/day-5-slope/day-5-slope.png"), dpi = 320, height = 7, width = 5)
