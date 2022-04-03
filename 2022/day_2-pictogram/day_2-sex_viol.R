@@ -1,6 +1,5 @@
 library(tidyverse)
 library(camcorder)
-library(MetBrewer)
 
 gg_record(dir = here::here("2022/30daychart-temp/"), device = "png", width = 12, height = 8, units = "in", dpi = 320)
 
