@@ -10,12 +10,12 @@ incl_gen_2019 <- readxl::read_xlsx(here::here("2022/data/004-0ahtgn-Figure 1.4. 
   pivot_longer(2:last_col(), names_to = "country") %>% 
   mutate(year = 2019, .before = 1)
 
-incl_spec_2019 <- readxl::read_xlsx(here::here("2022/data/004-0ahtgn-Figure 1.4. Legal LGBTI inclusivity is improving in all O....xlsx"), sheet = 2, range = "A12:AK14") %>% 
-  mutate(OECD = rowMeans(select(., 3:last_col()))) %>% 
-  rename(provisions = 1) %>% 
-  add_row(provisions = "Average", !!! colMeans(.[-1], na.rm = TRUE)) %>% 
-  pivot_longer(2:last_col(), names_to = "country") %>% 
-  mutate(year = 2019, .before = 1)
+# incl_spec_2019 <- readxl::read_xlsx(here::here("2022/data/004-0ahtgn-Figure 1.4. Legal LGBTI inclusivity is improving in all O....xlsx"), sheet = 2, range = "A12:AK14") %>% 
+#   mutate(OECD = rowMeans(select(., 3:last_col()))) %>% 
+#   rename(provisions = 1) %>% 
+#   add_row(provisions = "Average", !!! colMeans(.[-1], na.rm = TRUE)) %>% 
+#   pivot_longer(2:last_col(), names_to = "country") %>% 
+#   mutate(year = 2019, .before = 1)
 
 # 1999
 incl_gen_1999 <- readxl::read_xlsx(here::here("2022/data/004-0ahtgn-Figure 1.4. Legal LGBTI inclusivity is improving in all O....xlsx"), sheet = 2, range = "A34:AL36") %>% 
@@ -28,20 +28,18 @@ incl_gen_1999 <- readxl::read_xlsx(here::here("2022/data/004-0ahtgn-Figure 1.4. 
   mutate(year = 1999, .before = 1)
 
 # Datasets to plot
-# incl <- rbind(incl_gen_1999, incl_gen_2019, incl_spec_2019)
 
 all_2019 <- incl_gen_2019 %>% 
   filter(startsWith(provisions, "All")) %>% 
   mutate(country = fct_reorder(country, value))
 
-# gen_2019 <- incl_gen_2019 %>% 
-#   filter(startsWith(provisions, "General"))
-
-# group_2019 <- incl_gen_2019 %>% 
-#   filter(startsWith(provisions, "Group"))
-
 all_1999 <- incl_gen_1999 %>% 
   filter(startsWith(provisions, "All")) 
+
+# gen_2019 <- incl_gen_2019 %>% 
+#   filter(startsWith(provisions, "General"))
+# group_2019 <- incl_gen_2019 %>% 
+#   filter(startsWith(provisions, "Group"))
 
 # Plot
 gg_record(dir = here::here("2022/30daychart-temp/"), device = "png", width = 10, height = 12, units = "in", dpi = 320)
