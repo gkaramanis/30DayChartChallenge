@@ -60,7 +60,7 @@ p <- ggplot() +
   ) +
   theme_minimal(base_family = f1) +
   theme(
-    legend.position = c(0.82, 1.145),
+    legend.position = c(0.83, 1.125),
     legend.text = element_text(size = 16, color = "grey40"),
     legend.spacing.y = unit(0.1, "line"),
     legend.title = element_blank(),
