@@ -25,7 +25,7 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
         <td><img src="2021/day-14-space/day-14-space.png"></td>
     </tr>
     <tr>
-        <td><img src="!![](2021/day-16-trees/day-16-trees.png"></td>
+        <td><img src="2021/day-16-trees/day-16-trees.png"></td>
         <td><img src="2021/day-17-pop-culture/day-17-pop-culture.png"></td>
     </tr>
     <tr>
