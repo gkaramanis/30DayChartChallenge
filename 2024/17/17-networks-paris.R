@@ -21,12 +21,14 @@ ggplot(metro) +
   coord_sf(xlim = c(st_bbox(metro)[1], st_bbox(metro)[3]), ylim = c(st_bbox(metro)[2] + 0.05, st_bbox(metro)[4])) +
   labs(
     title = toupper("Métro de Paris"),
-    caption = toupper("Source: OpenStreetMap · Graphic: Georgios Karamanis")
+    subtitle = toupper("& Sites de compétition"),
+    caption = toupper("Source: OpenStreetMap & Paris 2024 Data · Graphic: Georgios Karamanis")
   ) +
   theme_void(base_family = f2) +
   theme(
     plot.background = element_rect(fill = "#ffe33d", color = NA),
     plot.title = element_text(size = 40, hjust = 0.5, margin = margin(40, 0, 0, 0)),
+    plot.subtitle = element_text(size = 24, hjust = 0.5, margin = margin(7, 0, 0, 0)),
     plot.caption = element_text(hjust = 0.5, margin = margin(10, 0, 20, 0))
   )
   
