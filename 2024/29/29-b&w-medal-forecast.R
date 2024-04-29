@@ -28,8 +28,9 @@ f2b <- "Produkt Medium"
 
 ggplot(vmt, aes(area = Total, label = paste0(rank, ". ", NOC, "\n", Total))) +
   geom_treemap(aes(fill = NOC == "France"), color = "white", size = 10, start = "topleft", layout = "srow") +
-  geom_treemap_text(color = "white", family = f1b, fontface = "bold", place = "centre", grow = TRUE, padding.x = unit(1, "line"), padding.y = unit(1, "line"), start = "topleft", min.size = 1, reflow = TRUE, layout = "srow") +
-  scale_fill_manual(values = c("#0055A4", "#EF4135")) +
+  geom_treemap_text(aes(color = NOC == "France"), family = f1b, fontface = "bold", place = "centre", grow = TRUE, padding.x = unit(1, "line"), padding.y = unit(1, "line"), start = "topleft", min.size = 1, reflow = TRUE, layout = "srow") +
+  scale_fill_manual(values = c("black", "white")) +
+  scale_color_manual(values = c("white", "black")) +
   labs(
     title = toupper("Paris 2024<br>medal forecast"),
     caption = toupper("Source: Gracenote Virtual Medal Table · Graphic: Georgios Karamanis")
@@ -39,7 +40,7 @@ ggplot(vmt, aes(area = Total, label = paste0(rank, ". ", NOC, "\n", Total))) +
     legend.position = "none",
     plot.background = element_rect(fill = "white", color = NA),
     plot.margin = margin(10, 10, 10, 10),
-    plot.title = ggtext::element_textbox_simple(hjust = 0.5, size = 48, face = "bold", fill = "black", color = "white", halign = 0.5, padding = margin(8, 0, 0, 0), margin = margin(0, 4, 3, 4), lineheight = 0.9),
-    plot.caption = ggtext::element_textbox_simple(hjust = 0.5, size = 10.9, face = "bold", fill = "black", color = "white", halign = 0.5, padding = margin(8, 0, 5, 0), margin = margin(0, 4, 0, 4))
+    plot.title = ggtext::element_textbox_simple(hjust = 0.5, size = 48, face = "bold", fill = "white", color = "black", halign = 0.5, padding = margin(8, 0, 0, 0), margin = margin(0, 4, 3, 4), lineheight = 0.9),
+    plot.caption = ggtext::element_textbox_simple(hjust = 0.5, size = 10.9, face = "bold", fill = "white", color = "black", halign = 0.5, padding = margin(8, 0, 5, 0), margin = margin(0, 4, 0, 4))
   )
   
