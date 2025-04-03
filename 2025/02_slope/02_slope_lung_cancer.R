@@ -49,24 +49,4 @@ ggplot(lung_cancer, aes(x = 1973, xend = 2023, y = `1973`, yend = `2023`, color 
     plot.subtitle = element_marquee(margin = margin(0, 0, 30, 0), lineheight = 1.1, family = f2, width = 1.05),
     plot.caption = element_text(size = 10, hjust = 0, margin = margin(10, 0, 0, 0)),
     plot.margin = margin(10, 30, 10, 30)
-  ) 
-  
-# Tag Socialstyrelsen on LinkedIn!
-
-
-# https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/statistik/2024-10-9300.pdf
-# Large increase in lung cancer among women
-# The majority of all lung cancers can be linked to tobacco smoking. During
-# the years 2019–2023, an average of approximately 2,500 women and 2,000
-# men were diagnosed annually with lung cancer, and during the same time
-# period approximately 1,900 women and 1,600 men died annually from lung
-# cancer. Historically, men have had significantly higher incidence and
-# mortality from lung cancer than women, but since the late 1970s, the
-# incidence and mortality have decreased among men (Figure 3). An inverse
-# pattern is seen for women, with a marked increase in incidence and mortality
-# through most of the time period, in recent years exceeding the incidence of
-# men. The mortality among women levelled off during the 2000s and has
-# decreased every year since 2017.
-# Data: Lungcancer – incidens och mortalitet per 100 000 invånare
-# Individuals diagnosed and individuals dead per 100,000 inhabitants 1973-2023
-# Källa: Cancerregistret och Dödsorsaksregistret, Socialstyrelsen
+  )
