@@ -58,27 +58,3 @@ ggplot(mothers_age, aes(year, n, fill = age_group)) +
     plot.caption = element_text(hjust = 0, margin = margin(-15, 0, 0, 0)),
     plot.margin = margin(10, 0, 10, 0)
   )
-  
-# The chart shows mothers, not children! Not accounting for multiple births!
-# Keep in mind the above before reading below:
-#
-# In 2023, around 100 000 children were born in Sweden, a decrease of 5
-# per cent compared with the previous year. The average age of both the
-# primiparous and multiparous women has continued to increase.
-#
-# Continued marked decline in the total
-# number of births
-# In 2023, around 99 6001 births took place, of which around 1.3 per cent were
-# multiple births. In total, around 100 65011 babies were born. First-time
-# mothers made up 44 per cent of women giving birth.
-# Since 1973, when data began to be collected for the Medical Birth Register,
-# birth rates have fluctuated in cycles of 10 to 15 years (see Figure 1). After a
-# downward trend in the 1970s, there was a turnaround in 1983, followed by a
-# sharp increase that peaked in the period 1990-1992, when more than 120
-# 000 children were born. The number of births hit rock bottom in the late 1990s, with
-# fewer than 86 000 births. After that, the number of births increased until
-# 2016, with the exception of 2011. Year 2016 marked the last peak, when
-# 121 700 children were born.
-# After 2016, the number of births has decreased every year, with a
-# particularly large decrease in 2022 and 2023. Compared with the previous
-# year, around 4 700 fewer babies were born in 2023. Not since 2005 have so
