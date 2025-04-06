@@ -4,6 +4,8 @@ library(camcorder)
 
 gg_record(dir = here::here("2025/30daychart-temp/"), device = "png", width = 12, height = 8, dpi = 320)
 
+# https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/statistik/2024-9-9198.pdf
+
 # Table 1. Regional distribution of employed dentists, doctors, midwives,
 # nurses, pharmacists, psychologists and physiotherapists.
 # Per 100 000 inhabitants, 1 november 2022
