@@ -3,6 +3,11 @@ library(camcorder)
 
 gg_record(dir = here::here("2025/30daychart-temp/"), device = "png", width = 10, height = 8, dpi = 320)
 
+# Patients per 100 000 residents
+# Discharges from hospital
+# Chapter V Mental and behavioural disorders (F00–F99)
+# ICD10 since 1997, translations previous years may not be perfect
+
 inpatient_raw <- readxl::read_xlsx("2025/data/downloaded/2024-9-9230-tables.xlsx", sheet = "Tabell 5", skip = 3)
 
 inpatient <- inpatient_raw %>% 
@@ -42,7 +47,7 @@ ggplot() +
     title = "35 years of mental health hospitalizations in Sweden",
     subtitle = str_wrap("Each stripe represents yearly hospital discharge rates per 100 000 residents for mental health conditions. The 1995 mental healthcare reform shifted care to communities, reducing hospitalizations in older age groups. Meanwhile, young adult (15-24) admissions doubled, possibly due to better mental health awareness and advances in diagnosis. Vertical lines mark the 1995 reform and the 2020 COVID-19 pandemic.", 140),
     caption = "Source: National Board of Health and Welfare (Socialstyrelsen) · Graphic: Georgios Karamanis",
-    fill = "Cases per 100,000"
+    fill = "Cases per 100 000"
   ) +
   coord_cartesian(clip = "off") +
   theme_void(base_family = f1) +
@@ -61,8 +66,3 @@ ggplot() +
     strip.text = element_text(size = 10, face = "bold"),
     plot.margin = margin(10, 10, 10, 10)
   )
-
-# Patients per 100 000 residents
-# Discharges from hospital
-# Chapter V Mental and behavioural disorders (F00–F99)
-# ICD10 since 1997, translations previous years may not be perfect
