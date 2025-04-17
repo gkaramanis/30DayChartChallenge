@@ -54,7 +54,7 @@ ggplot(countries, aes(area = n, fill = country)) +
   coord_cartesian(clip = "off") +
   labs(
     title = "Flocking to Sweden",
-    subtitle = "Number of licences granted in 2023 by country of education: Sweden, {.#E0C568 **EU/EFTA+Switzerland**}, and {.#f260a4 **other countries**}. Professions ordered by proportion educated outside Sweden.",
+    subtitle = "Number of licences granted in 2023 by country of education: Sweden, {.#E0C568 **EU/EFTA**}, and {.#f260a4 **other countries**}. Professions ordered by proportion educated outside Sweden.",
     caption = "Source: National Board of Health and Welfare (Socialstyrelsen)\nGraphic: Georgios Karamanis"
     ) +
   theme_void(base_family = f1) +
