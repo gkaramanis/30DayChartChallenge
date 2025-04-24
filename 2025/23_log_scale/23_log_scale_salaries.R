@@ -6,7 +6,7 @@ gg_record(dir = here::here("2025/30daychart-temp/"), device = "png", width = 8, 
 # https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0104__AM0104A/Statlig2gSSYK412/
 # Genomsnittlig månadslön inom statlig sektor, medellön efter Yrke (SSYK 2012), kön och år
 
-salaries_raw <- read_csv("~/Desktop/00000052_20250423-073904.csv", locale = locale(encoding = "latin1")) 
+salaries_raw <- read_csv(here::here("2025/data/scb_salaries.csv"), locale = locale(encoding = "latin1")) 
 
 salaries <- salaries_raw %>% 
   rename(profession = 1, sex = 2) %>% 
