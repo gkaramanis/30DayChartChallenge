@@ -13,7 +13,7 @@ clr_accent  <- "#E8A020"
 clr_accent2 <- "#3D4F9F"
 clr_grid    <- "#E0E0D8"
 
-# Source: 
+# Source: UL GTFS via KoDa API
 # 4-31 April, 2026
 gtfs <- here::here("2026/data/ul_gtfs")
 
