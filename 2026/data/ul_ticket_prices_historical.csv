@@ -1,0 +1,71 @@
+year,ticket_type,payment_method,price_sek,notes
+2010,enkelbiljett_vuxen,kontant,30,Stadsbuss Uppsala
+2010,enkelbiljett_vuxen,värdekort,16,Stadsbuss Uppsala
+2010,enkelbiljett_vuxen,förköp_sms,20,Stadsbuss Uppsala
+2010,enkelbiljett_ungdom,kontant,18,Stadsbuss Uppsala t.o.m. 19 år
+2010,enkelbiljett_ungdom,värdekort,8,Stadsbuss Uppsala t.o.m. 19 år
+2011,enkelbiljett_vuxen,kontant,30,30 kr med betalkort ombord
+2011,enkelbiljett_vuxen,värdekort,16,
+2011,enkelbiljett_vuxen,förköp_sms,20,
+2011,enkelbiljett_ungdom,värdekort,8,t.o.m. 19 år
+2011,enkelbiljett_ungdom,förköp_sms,12,t.o.m. 19 år
+2012,enkelbiljett_vuxen,kontant,30,
+2012,enkelbiljett_vuxen,värdekort,18,
+2012,enkelbiljett_vuxen,förköp_sms,25,
+2012,enkelbiljett_ungdom,kontant,18,7-19 år
+2012,enkelbiljett_ungdom,värdekort,9,7-19 år
+2012,enkelbiljett_ungdom,förköp_sms,15,7-19 år
+2013,enkelbiljett_vuxen,förköp,25,Stadsbuss Uppsala (en zon)
+2013,enkelbiljett_vuxen,ombord,30,Stadsbuss Uppsala (en zon)
+2013,enkelbiljett_ungdom,förköp,15,Stadsbuss Uppsala (en zon)
+2013,enkelbiljett_ungdom,ombord,18,Stadsbuss Uppsala (en zon)
+2014,enkelbiljett_vuxen,reskassa,20,en zon (zon 1-4); 75 min
+2014,enkelbiljett_vuxen,förköp,25,en zon (zon 1-4); 75 min
+2014,enkelbiljett_vuxen,ombord,30,en zon (zon 1-4); 75 min
+2014,enkelbiljett_ungdom,reskassa,12,en zon; 75 min
+2014,enkelbiljett_ungdom,förköp,15,en zon; 75 min
+2014,enkelbiljett_ungdom,ombord,20,en zon; 75 min
+2015,enkelbiljett_vuxen,reskassa,20,en zon (zon 1-4); 75 min
+2015,enkelbiljett_vuxen,förköp,27,en zon (zon 1-4); 75 min
+2015,enkelbiljett_vuxen,ombord,35,en zon (zon 1-4); 75 min
+2015,enkelbiljett_ungdom,reskassa,12,en zon; 75 min
+2015,enkelbiljett_ungdom,förköp,16,en zon; 75 min
+2015,enkelbiljett_ungdom,ombord,24,en zon; 75 min
+2016,enkelbiljett_vuxen,reskassa,20,en zon (zon 1-4); 75 min
+2016,enkelbiljett_vuxen,förköp,27,en zon (zon 1-4); 75 min
+2016,enkelbiljett_vuxen,ombord,35,en zon (zon 1-4); 75 min
+2016,enkelbiljett_ungdom,reskassa,12,en zon; 75 min
+2016,enkelbiljett_ungdom,förköp,16,en zon; 75 min
+2016,enkelbiljett_ungdom,ombord,24,en zon; 75 min
+2017,enkelbiljett_vuxen,reskassa,22,en zon (zon 1-4); 75 min (old format snapshot)
+2017,enkelbiljett_vuxen,förköp,28,en zon (zon 1-4); 75 min
+2017,enkelbiljett_vuxen,ombord,35,en zon (zon 1-4); 75 min
+2017,enkelbiljett_ungdom,reskassa,13,en zon; 75 min
+2017,enkelbiljett_ungdom,förköp,17,en zon; 75 min
+2017,enkelbiljett_ungdom,ombord,24,en zon; 75 min
+2018,enkelbiljett_vuxen,reskassa,23,en zon; 75 min (from Region Uppsala press release 2017-09-04; effective 9 jan 2018)
+2018,enkelbiljett_vuxen,förköp,30,en zon; 75 min (from Region Uppsala press release 2017-09-04; effective 9 jan 2018)
+2019,enkelbiljett_vuxen,förköp,32,en zon (zon 1-4); 75 min
+2019,enkelbiljett_vuxen,ombord,39,en zon (zon 1-4); 75 min
+2019,enkelbiljett_ungdom,förköp,19,en zon; 75 min
+2019,enkelbiljett_ungdom,ombord,24,en zon; 75 min
+2020,enkelbiljett_vuxen,reskassa,26,en zon; 75 min (ul_reskassa_2020.html)
+2020,enkelbiljett_ungdom,reskassa,16,en zon; 75 min (ul_reskassa_2020.html)
+2021,enkelbiljett_vuxen,förköp,33,en zon (zon 1-4); 75 min
+2021,enkelbiljett_vuxen,ombord,42,en zon (zon 1-4); 75 min
+2021,enkelbiljett_ungdom,förköp,20,en zon; 75 min
+2021,enkelbiljett_ungdom,ombord,25,en zon; 75 min
+2022,enkelbiljett_vuxen,förköp,33,en zon (zon 1-4); 75 min
+2022,enkelbiljett_vuxen,ombord,42,en zon (zon 1-4); 75 min
+2022,enkelbiljett_ungdom,förköp,20,en zon; 75 min
+2022,enkelbiljett_ungdom,ombord,25,en zon; 75 min
+2023,enkelbiljett_vuxen,förköp,33,en zon (zon 1-4); 75 min
+2023,enkelbiljett_vuxen,ombord,42,en zon (zon 1-4); 75 min
+2023,enkelbiljett_ungdom,förköp,20,en zon; 75 min
+2023,enkelbiljett_ungdom,ombord,25,en zon; 75 min
+2024,75min_vuxen,NA,39,75-minutersbiljett vuxen (new flat fare structure)
+2024,75min_rabatterad,NA,27,75-minutersbiljett rabatterad (ungdom/pensionär)
+2025,75min_vuxen,NA,39,75-minutersbiljett vuxen (web.archive.org 2025-02-06)
+2025,75min_rabatterad,NA,29,75-minutersbiljett rabatterad (web.archive.org 2025-02-06)
+2026,75min_vuxen,NA,40,75-minutersbiljett vuxen (ul.se April 2026)
+2026,75min_rabatterad,NA,30,75-minutersbiljett rabatterad (ul.se April 2026)
