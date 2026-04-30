@@ -41,6 +41,10 @@ Submissions to the [#30DayChartChallenge](https://github.com/Z3tt/30DayChartChal
         <td></td>
     </tr>
 </table>
-  
 
-  
+
+# 2026
+
+Theme: Uppsala transportation.
+
+![A 6-by-4 grid of 24 charts on the theme of Uppsala transportation. Each chart shares the same portrait format and color palette — saffron yellow and indigo blue on an off-white background. Chart types include donut charts, clock diagrams, scatter plots, area charts, bubble charts, dot plots, and radial plots. Titles include "How Uppsala County moves", "Uppsala trains on track", "Electric revolution in Uppsala", "Uppsala city bus punctuality", and "Boardings per km of service", among others. Graphic: Georgios Karamanis.](2026/2026_grid_white.png)
